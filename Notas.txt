@@ -6,6 +6,17 @@ NodeJS es un entorno de tiempo de ejecucion de javascript de codigo abierto y mu
 ==========================================
 Basic Commands de git
 <>
+
+Paso Paso:
+git init
+git add .
+git commit -m "(texto)"
+
+Si no funciona el commit, hay que ingresar email y user
+git config --global user.email "MartinVimakroAmori@gmail.com"
+git config --global user.name "Vimakro"
+
+git push origin main/master (Mirando el commit, el nombre puede ser cualquiera de los dos)
 ------------------------------------------
 git init
 Crea un nuevo repositorio local GIT. usando git init [Nombre del archivo] Tambien puedescrear un repositorio dentro de un directorio especificando el nombre del proyecto
