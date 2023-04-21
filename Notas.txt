@@ -1,0 +1,115 @@
+Javascript es un lenguaje de programacion que se ejecuta en el ambito de una pagina web. es una herramiento muy importante sobre todo para la realizacion de una web dinamica.
+
+NodeJS es un entorno de tiempo de ejecucion de javascript de codigo abierto y multiplataforma. Es una herramienta popular para casi cualquier tipo de proyecto.
+
+
+==========================================
+Basic Commands de git
+<>
+------------------------------------------
+git init
+Crea un nuevo repositorio local GIT. usando git init [Nombre del archivo] Tambien puedescrear un repositorio dentro de un directorio especificando el nombre del proyecto
+------------------------------------------
+git add <file>
+Lo usas para agregar archivos al area de la preparacion
+------------------------------------------
+git status
+lo usas para que muestre la lista de archivos que has cambiado. junto con los archivos que seran preparados y confirmados
+------------------------------------------
+git commit
+Lo usas para crear un cambio que se guardara en el directorio git
+------------------------------------------
+git push
+Lo usas para enviar confirmaciones a la rama maestra/principal del repositorio remoto
+------------------------------------------
+git pull
+Lo usas para fusionar todos los cambios que hiciste en el repositorio local con el directorio de trabajo local
+------------------------------------------
+git clone
+lo usas para clonar un repositorio
+------------------------------------------
+Esquema de funcionamiento:
+
+Working directory ===> 
+git add ===>
+staging area ===> 
+git commit ===> 
+repository
+
+------------------------------------------
+
+==========================================
+
+HTML
+
+Terminos importantes y muy frecuentes:
+Etiqueta, Atributo, Estructura.
+
+
+TAG <a> (Anchor Tag)
+crea hipervinculos
+<a href="URL">Texto que contiene el hipervinculo</a>
+
+TAG <p> (Parrafo)
+<p class="subbrayado"> Esto es un parrafo </p>
+
+TAG <!DOCTYPE html> (tipo de documento)
+
+TAG Anidado <html> (Contiene <head> y <body>)
+(etiqueta inicial, define el documento esta bajo el estandar de HTML)
+
+TAG <head> (Cabeza de la pagina)
+(Parte privada que se  usa como espacio entre comunicacion entre el sitio web y el navegador, el <head> puede tener, <title>, etiquetas <meta> y relacionadas con la importacion de documentos CSS y JS)
+
+TAG <title> (Define titulo de la pagina)
+<title>Texto</title>
+
+TAG <meta> (añade informacion sobre la pagina, como el idioma, codificacion, etc)
+
+TAG <body> (Cuerpo de la pagina)
+(Contenido de dicho sitio)
+
+TAG <ol> (Lista ordenada)
+TAG <ul> (Lista Desordenada)
+
+TAG <li> (List item)(Puede estar dentro del <ol> para tenerlos numerados o <ul> sin poner los numeros pero si en modo lista)
+
+(Etiquetas Cerradas encierran contenido, texto en general)
+(Etiqueta Abierta incluye imagenes, lineas, etc)
+
+TAG <hr> (Hace una linea horizontal)
+
+TAG <img>
+<img src="">
+
+TAG <br> (Salto de bloque)
+
+TAG <em> (salto de linea)
+
+TAG <strong> (de linea)
+
+TAG <hr> (No explicado)
+
+(HTML5 incorpora etiquetas semanticas, que no solo generan estructura, sino tmb definen su contenido, ej: <header>, <nav>, <section> con <article> dentro, <aside>, <footer>)
+
+TAG <header> (Barra de arriba de la pagina)
+<header></header>
+
+TAG <nav> (contenedor en bloque, de una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o hacia otros documentos)
+<nav></nav>
+
+TAG <section> (define una seccion)
+<section></section>
+
+TAG <article> (articulo dentro de <section>)
+
+TAG <aside> (elemento separado del contenido principal como anuncios, etc)
+<aside></aside>
+
+TAG <footer> (pie de pagina)
+<footer></footer>
+
+TAG <h1> (texto entre <h1> describe encabezado. 'Heading 1'. Desde <h1>, hasta el <h6>)
+
+TAG <span> (contenedor en linea, por texto)
+
