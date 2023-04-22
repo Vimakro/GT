@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 6</title>
+
+    <style>
+		table {
+			border-collapse: collapse;
+			width: 30%;
+		}
+		th, td {
+			border: 1px solid black;
+			padding: 8px;
+			text-align: center;
+		}
+		th {
+			background-color: #ccc;
+		}
+	</style>
+
+</head>
+<body>
+    <header>
+        <hr>
+
+        <h1>Punto 6</h1>
+        <h3>
+            <ul>
+                <li>
+                    <a href="index5.html">Anterior</a>
+                </li>
+                <li>
+                    <a href="">Siguiente</a>
+                </li>
+            </ul>
+        </h3>
+        <hr>
+    </header>
+
+    <div>
+        <table style="border: 1">
+            <tr>
+                <td>Nombres</td>
+                <td>Martin</td>
+                <td>Maria</td>
+                <td>Theo</td>
+                <td>Cupini</td>
+            </tr>
+            <tr>
+                <td>Edades</td>
+                <td>17</td>
+                <td>18</td>
+                <td>18</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>Puntuacion</td>
+                <td>100</td>
+                <td>50</td>
+                <td>50</td>
+                <td>40</td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <div>
+        <table>
+            <th>
+                Formulario de registro - Mi Web
+                <tr><td><label>Nombre: <br> <input type="text" name="txt_name" placeholder="Martin" required></label></td></tr>
+                <tr><td><label>Apellido: <br> <input type="text" name="txt_surname" placeholder="Kako" required></label></td></tr>
+                <tr><td><label aria-required="true">
+                    Sexo: <br> 
+                    <label><input name="Sexo" type="radio" value="tm"> Hombre </label>
+                    <label><input name="Sexo" type="radio" value="tt"> Mujer </label>
+                </label></td></tr>
+                <tr><td><label>Email: <br> <input type="email" name="txt_email" placeholder="Papa@gmail.com" required></label></td></tr>
+                <tr><td><label for="checkbox0" or for="checkbox1"> 
+                    <input id="checkbox0" name="chb_recibir_info" type="checkbox" value="aceptado" checked="true"> Deseo recibir informacion sobre novedades y ofertas
+                     <br>
+                     <input id="checkbox1" name="chb_lei_condiciones" type="checkbox" value="aceptado" checked="true"> Declaro haber leido y aceptado las condiciones generales del programa y la normativa sobre proteccion de datos
+                 </label></td></tr>
+                <tr><td><input type="submit" name="btt_enviar" value="Enviar"></td></tr>
+            </th>
+        </table>
+    </div>
+</body>
+</html>
