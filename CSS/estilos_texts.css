@@ -1,0 +1,25 @@
+body {
+    background-color: lightgrey;
+}
+
+h1.a {
+    color: blue;
+}
+
+h2.a {
+    color: #BA521F
+}
+
+h3.a {
+    color:rgb(120, 234, 88)
+}
+
+p.a {
+    color: red;
+    background-color: green;
+}
+
+img.a {
+    height: 100px;
+    width: 100px;
+}
