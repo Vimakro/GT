@@ -1,0 +1,39 @@
+
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pan {
+    background-color: #deb887;
+    height: 40px;
+    width: 25%;
+}
+
+.pan_arriba {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: 5px solid #b5956c;
+}
+
+.pan_abajo {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 5px solid #b5956c;
+}
+
+.salchicha {
+    background-color: #a42b2a;
+    height: 50px;
+    width: 35%;
+    border-radius: 25px;
+}
+
+
