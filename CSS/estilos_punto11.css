@@ -1,10 +1,57 @@
-* {
-    box-sizing: border-box;
+
+.caja {
+    display: grid;
+    width:fit-content;
+    grid-template-columns: 50px 50px 50px;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: 2px;
+    padding: 10px;
+    border: 5px solid red;
 }
 
-.grid {
+.barra {
     display: grid;
-    border: 2px solid black;
-    grid-template-columns: 300px 100px;
-    grid-template-rows: 40px 100px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 150px;
+    background-color: skyblue;
+    border: 1px solid black;
 }
+
+.item {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.pag {
+    display: grid;
+    width: 25%;
+    grid-template-areas: 
+    'header header header'
+    'menu main right'
+    'menu footer footer';
+    gap: 2px;
+    background-color: blue;
+    padding: 2px;
+    margin: 10px;
+}
+
+.pag div {
+    background-color: skyblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {grid-area: header;}
+.item2 {grid-area: menu;}
+.item3 {grid-area: main;}
+.item4 {grid-area: right;}
+.item5 {grid-area: footer;}

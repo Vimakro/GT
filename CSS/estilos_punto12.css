@@ -1,6 +1,6 @@
 
 
-.conteiner {
+.conteiner2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,4 +36,18 @@
     border-radius: 25px;
 }
 
+h1.titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+div.boostrapa {
+    text-align: center;
+}
+
+
+.btn-succes {
+    background-color: grey;
+    border-radius: 50%;
+}
 
